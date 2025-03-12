@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rock+Salt&display=swap" rel="stylesheet">
+
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!--Navbar-->
+
+        <header>
+            <nav class="navbar">
+                <div class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#about"class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                        <a href="#" class="logo">
+                            <img src="assets/img/logo.png" alt="#">
+                        </a>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <div class="hero__content">
+                <h1 class="hero__h1">
+                    Hey! <span>I'm Hope</span> <br> a <span>developer</span> <br> based in Coeur d'Alene, ID
+                </h1>
+                <div class="hero__buttons">
+                    <a href="https://github.com/HopeWalton" target="_blank" class="hero__button github"> 
+                        <img src="assets/icons/githubLogo.png" alt="GitHub Icon">
+                    </a>
+                    <a href="https://www.linkedin.com/in/hope-walton1994/" target="_blank" class="hero__button linkedin">
+                        <img src="assets/icons/linkedinLogo.png" alt="LinkedIn Icon">
+                    </a>
+                    <a href="mailto:hopewalton90@gmail.com" class="hero__button email">
+                        <img src="assets/icons/emailLogo.png" alt="Email Icon">
+                    </a>
+                </div>
+            </div>
+            <div class="blur"></div>
+        </header>
+
+
+    <!--About Me-->
+
+        <section class="about fade-in" id="about">
+            <div class="about__content--wrapper">
+                <div>
+                    <h2 class="about__content--header">About Me</h2>
+                    <div class="tagline">
+                        <div class="tagline__line"></div>
+                        <div class="tagline__content">Developer</div> 
+                    </div>
+                    <p class="about__content--p">I’m Hope, a developer based in Coeur d'Alene/Spokane who loves building clean, responsive, and engaging web experiences. My focus is on frontend development, crafting intuitive user interfaces with React, JavaScript, and modern CSS—but I also work with backend technologies like Node.js, PHP, and SQL to create full-stack applications.
+                        <br><br>
+                    I thrive on solving problems and refining details—whether it’s tweaking an animation for a better user experience or optimizing a database query for efficiency. My approach is simple: push past the comfort zone, keep learning, and build things that matter.
+                    </p>
+
+                    <a href="./assets/docs/HopeWalton.pdf" target="_blank" class="about__button">
+                        📄 View & Download Resume
+                    </a>
+                </div>
+                <img class="about__img" src="./assets/img/headshot02.png" alt="#">
+            </div>
+        </section>
+
+    <!--Services-->
+
+        <section class="services" id="services">
+            <h2 class="services__header">Skills That Make an <span>Impact</span></h2>
+            <div class="services__content__wrapper">
+                
+                <div class="services__container">
+                    <i class="fas fa-globe services__icon"></i>
+                    <h3 class="services__container--header">Web Development</h3>
+                    <p class="services__content">I design and develop fully responsive and user-friendly websites, ensuring they look stunning and perform seamlessly across all devices. Using HTML, CSS, JavaScript, and React, I build interactive and high-performance web experiences, ensuring an engaging user journey.</p>
+                </div>
+                
+                <div class="services__container">
+                    <i class="fas fa-layer-group services__icon"></i>
+                    <h3 class="services__container--header">Full-Stack Application Development</h3>
+                    <p class="services__content">I build end-to-end applications by combining frontend expertise with backend development. I work with SQL, Node.js, PHP, and MongoDB to create scalable, database-driven applications that complement well-structured frontends.</p>
+                </div>
+                
+                <div class="services__container">
+                    <i class="fas fa-database services__icon"></i>
+                    <h3 class="services__container--header">Database Management</h3>
+                    <p class="services__content">I design and manage SQL and NoSQL databases, ensuring efficient data storage and retrieval for web applications. From structuring relational databases with PostgreSQL & MySQL to working with MongoDB for flexible document-based storage, I ensure secure and optimized data management.</p>
+                </div>
+                
+                <div class="services__container">
+                    <i class="fas fa-code-branch services__icon"></i>
+                    <h3 class="services__container--header">API Development & Integration</h3>
+                    <p class="services__content">I don’t just integrate APIs—I also build them. Using Node.js and PHP, I create custom RESTful APIs that enable secure and scalable data exchange. I also have experience integrating third-party APIs (such as Google Maps, Stripe, and OpenWeather) to add dynamic functionality to web applications.</p>
+                </div>
+                
+                <div class="services__container">
+                    <i class="fas fa-tachometer-alt services__icon"></i>
+                    <h3 class="services__container--header">SEO & Performance Optimization</h3>
+                    <p class="services__content">A fast and optimized website drives engagement and conversions. I enhance website performance, accessibility, and search engine rankings through code optimizations, caching strategies, and SEO best practices.</p>
+                </div>
+                
+                <div class="services__container">
+                    <i class="fas fa-palette services__icon"></i>
+                    <h3 class="services__container--header">UI/UX Design & Accessibility</h3>
+                    <p class="services__content">I specialize in designing user-centric applications by conducting thorough UX research, creating wireframes, and prototyping with tools like Figma. My designs prioritize intuitive navigation and visually appealing interfaces to enhance user satisfaction.</p>
+                </div>
+            </div>
+        </section>
+
+    <!--Projects-->
+
+        <section class="project__section" id="projects">
+            <h1 class="project__header">Selected Projects</h1>
+            <div class="scroller" data-direction="left" data-speed="slow">
+                <div class="scroller__inner">
+                    <a href="https://northidahomushroomclub.org/"><img class="scroller__img" src="assets/projects/NIMA.png" alt="NIMA homepage"><div class="project-hover-info">
+                        <h3>NIMA Website</h3>
+                        <p>Built with HTML, CSS, and JavaScript.</p>
+                    </div></a>
+                    <a href="https://github.com/HopeWalton/Sprinkles-Landing-Page"><img class="scroller__img" src="assets/projects/Sprinkles.png" alt=""><div class="project-hover-info">
+                        <h3>Sprinkles landing page</h3>
+                        <p>Built with HTML, CSS, and JavaScript.</p>
+                    </div></a>
+                    <a href="https://github.com/HopeWalton/Marriott-Bonvoy"><img class="scroller__img" src="assets/projects/Bonvoy.png" alt=""><div class="project-hover-info">
+                        <h3>Marriott-Bonvoy</h3>
+                        <p>Built with HTML, CSS, and JavaScript.</p>
+                    </div></a>
+                    <a href="https://github.com/Kyntronos/Maze-Muncher"><img class="scroller__img" src="assets/projects/MazeMuncher.png" alt=""><div class="project-hover-info">
+                        <h3>Maze Muncher</h3>
+                        <p>Built with Phaser, HTML, CSS, and JavaScript.</p>
+                    </div></a>
+                    <a href="https://github.com/HopeWalton/HopeWaltonQuotesAPI"><img class="scroller__img" src="assets/projects/BookClubAPI.png" alt=""><div class="project-hover-info">
+                        <h3>Book Club API</h3>
+                        <p>Built with PHP, PostgreSQL, Azure, SQL .</p>
+                    </div></a>
+                </div>
+            </div>
+        </section>
+
+
+    <!--Contact-->
+
+    <section class="contact" id="contact">
+        <div class="blur__top"></div>
+        <div class="contact__container">
+            <h1 class="contact__header">Get in Touch!</h1>
+            <form name="contactForm" id="contactForm" method="POST" data-netlify="true">
+                
+                <!-- Row 1: Name & Email -->
+                <div class="form__row">
+                    <div class="form__group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <span class="error-message" id="nameError"></span>
+                    </div>
+                    <div class="form__group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+                </div>
+    
+                <!-- Row 2: Subject -->
+                <div class="form__row">
+                    <div class="form__group">
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" required>
+                        <span class="error-message" id="subjectError"></span>
+                    </div>
+                </div>
+    
+                <!-- Row 3: Message (Full Width) -->
+                <div class="form__group">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" rows="5" required></textarea>
+                    <span class="error-message" id="messageError"></span>
+                </div>
+    
+                <button class="form__submit__button" type="submit">Send</button>
+            </form>
+        </div>
+        <div class="blur"></div>
+    </section>
+    
+
+        <div id="thankYou" style="display: none">
+            <p>Thank you! Your message has been sent.</p>
+        </div>
+
+    <!--Footer-->
+        <footer class="footer__container">
+            <div class="footer__wrapper">
+                <h1 class="footer__header">Hope Walton</h1>
+                <div class="footer__flex__group">
+                    <div class="footer__group">
+                        <h2 class="footer__header">Phone No.</h2>
+                        <p class="footer__group__p">(+1) 813 215 6886</p>
+                    </div>
+                    <div class="footer__group">
+                        <h3 class="footer__header">Email</h3>
+                        <p class="footer__group__p">hopewalton90@gmail.com</p>
+                    </div>
+                    <div class="footer__group">
+                        <h4 class="footer__header .last__footer">Coeur d'Alene / Spokane</h4>
+                        <p class="footer__group__p">&nbsp;</p> <!-- Empty paragraph for alignment -->
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+
+    <script src="main.js"></script>
+</body>
+</html>
